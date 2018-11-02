@@ -124,11 +124,11 @@
         },
         "petition_filing_year": {
           "$id": "#/properties/data/properties/petition_filing_year",
-          "type": "integer",
+          "type": "string",
           "title": "Petition filing year",
-          "default": 0,
+          "default": "0",
           "examples": [
-            2013
+            "2013"
           ]
         },
         "petition_result": {
